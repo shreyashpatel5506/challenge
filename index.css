@@ -1,0 +1,73 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    color:hsl(30, 10%, 34%);
+    font-size:16px;
+}
+
+.main{
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    left:30%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2%;
+    box-shadow: 0 0 20px white;
+    border:35px solid hsl(0, 0%, 100%);
+}
+.omelette
+{
+    border-radius: 5%;
+    z-index: 1;
+   
+    align-items: center;
+    display:inline-flex;
+    justify-content: space-around;
+    height: 250px;
+    size:cover;
+}
+.heading{
+    font-family: "Young Serif", serif;
+    color:black;
+    font-size: 42px;
+    font-weight: 700;
+}
+.subhead{
+    font-family: "Outfit", sans-serif;
+   
+    font-weight: 600;}
+.block{
+    background-color:hsl(330, 100%, 98%);
+} 
+
+.preparation{
+    font-family: "Outfit", sans-serif;
+    color:hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 24px;
+}
+.menu{
+    color:hsl(24, 5%, 18%);
+}
+.subhead1{
+    font-family: "Outfit", sans-serif;
+    color:hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 34px;
+}
+.Instructions{
+    list-style-type:number;
+}
+.subhead2{
+    font-family: "Outfit", sans-serif;
+    color:hsl(332, 51%, 32%);
+}
+.nut{
+    display: inline-block;
+    list-style-type: none;
+}
+hr{
+    border-color:hsl(30, 10%, 34%);
+    border-width: 0.5px;
+}

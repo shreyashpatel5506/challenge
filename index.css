@@ -1,69 +1,73 @@
 body{
-    margin: 0;
-    
+    background-color: hsl(30, 54%, 90%);
+    color:hsl(30, 10%, 34%);
+    font-size:16px;
 }
+
 .main{
-    background-color: rgb(138, 186, 170);
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    left:30%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2%;
+    box-shadow: 0 0 20px white;
+    border:35px solid hsl(0, 0%, 100%);
 }
-.image img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.omelette
+{
     border-radius: 5%;
+    z-index: 1;
+   
+    align-items: center;
+    display:inline-flex;
+    justify-content: space-around;
+    height: 250px;
+    size:cover;
 }
-.container {
-    max-width: 600px;
-    padding: 0 50px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+.heading{
+    font-family: "Young Serif", serif;
+    color:black;
+    font-size: 42px;
+    font-weight: 700;
+}
+.subhead{
+    font-family: "Outfit", sans-serif;
+   
+    font-weight: 600;}
+.block{
+    background-color:hsl(330, 100%, 98%);
+} 
+
+.preparation{
+    font-family: "Outfit", sans-serif;
+    color:hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 24px;
 }
 .menu{
-    display:inline-flex;
+    color:hsl(24, 5%, 18%);
 }
-.nature {
-    margin:25px;
-    padding: 15px;
-    border: 1px solid grey;
-
-   border-radius: 30px;
-    cursor: pointer;
-    
+.subhead1{
+    font-family: "Outfit", sans-serif;
+    color:hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 34px;
 }
-.lake{
-    margin:25px;
-    padding: 15px;
-    border: 1px solid grey;
-    cursor: pointer;
-    border-radius: 30px;
- 
-    
+.Instructions{
+    list-style-type:number;
 }
-.p{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
-
+.subhead2{
+    font-family: "Outfit", sans-serif;
+    color:hsl(332, 51%, 32%);
 }
-.para{
-    
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
+.nut{
+    display: inline-block;
+    list-style-type: none;
 }
-.Read{
-    margin-top:25px;
-    margin-bottom: 0;
-    padding: 15px;
-    border: 1px solid grey;
-    border-radius: 36px; 
-    background-color: aqua;
-    width:fit-content;
-    align-items: center;
-    cursor: pointer;
-  
-}
-.p1{
-    display: none;
-}
-a{
-    text-decoration: none;
+hr{
+    border-color:hsl(30, 10%, 34%);
+    border-width: 0.5px;
 }
